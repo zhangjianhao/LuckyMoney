@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ad_window_bg">#0fd63433</color>
+    <color name="alpha_00">#00000000</color>
+    <color name="alpha_50">#e5000000</color>
+    <color name="alpha_90">#90000000</color>
+    <color name="app_market_background">#ff4ed0ea</color>
+    <color name="black">#ff000000</color>
+    <color name="blue">#ff0c6ac4</color>
+    <color name="btn_app_market">#ff25ae06</color>
+    <color name="btn_khbao">#fffbdb30</color>
+    <color name="btn_txgj">#ff18a73e</color>
+    <color name="divide_color">#ffdfdfdf</color>
+    <color name="down_fairure">#ffff0000</color>
+    <color name="down_progress">#ff3b3b3b</color>
+    <color name="down_waiting">#ff000000</color>
+    <color name="gray">#ffd4d4d4</color>
+    <color name="hint_color">#ffe4e4e4</color>
+    <color name="installed">#ffaeaeae</color>
+    <color name="light_black">#ff4d4d4c</color>
+    <color name="line_color">#70333333</color>
+    <color name="nf_item_end">#08ffffff</color>
+    <color name="nf_item_start">#ffffffff</color>
+    <color name="nf_item_text">#ffd3eeff</color>
+    <color name="pressed_visible">#1f000000</color>
+    <color name="ranking_item_text">#ff9f9f9f</color>
+    <color name="ranking_text">#fff0d19c</color>
+    <color name="ranking_them">#ffd63433</color>
+    <color name="ranking_title">#ff913f33</color>
+    <color name="red">#ffd63433</color>
+    <color name="seek_color">#ff71c058</color>
+    <color name="setting_bg">#ffeeeeee</color>
+    <color name="text_color">#ff000000</color>
+    <color name="thinks_text_color">#fffbfce0</color>
+    <color name="titlebar_bg">#ffd63433</color>
+    <color name="titlebar_bg_p">#8fd63433</color>
+    <color name="transparency_half">#2f000000</color>
+    <color name="update">#ffe23d00</color>
+    <color name="white">#ffffff</color>
+    <color name="app_content_color">#FF6347</color>
+    <color name="qq_lucky_money_red">#d63433</color>
+
+    <color name="alipay_main">#ff313850</color>
+    <color name="blue_bright">#ff00ddff</color>
+    <color name="blue_dark">#ff0099cc</color>
+    <color name="blue_light">#ff33b5e5</color>
+    <color name="gray_bright">#33cccccc</color>
+    <color name="gray_light">#33999999</color>
+    <color name="green_dark">#ff669900</color>
+    <color name="green_light">#ff99cc00</color>
+    <color name="list_item_line">#ffe1e1e1</color>
+    <color name="orange_dark">#ffff8800</color>
+    <color name="orange_light">#ffffbb33</color>
+    <color name="purple">#ffaa66cc</color>
+    <color name="qq_main">#ff18b4ed</color>
+    <color name="red_dark">#ffcc0000</color>
+    <color name="qq_red_light">#ffff4444</color>
+    <color name="settings_line">#ffe6e4e3</color>
+    <color name="transparent">#00000000</color>
+    <color name="wechat_main">#ff46c01c</color>
+
+
+    <color name="view_bg_gray_color">#fff5f6fb</color>
+</resources>

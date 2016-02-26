@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/zjianhao/workspace/AndroidStudioWorkSpace/GetLuckyMoney/app/libs/pushservice-4.6.0.53.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f62a3054196e5ef23ac29f159863e3f657e92cfc">
+        <dex dex="/home/zjianhao/workspace/AndroidStudioWorkSpace/GetLuckyMoney/app/build/intermediates/pre-dexed/release/pushservice-4.6.0.53-9e78d944525b11e2c36ad0cb9b608b2c6a0af518.jar" />
+    </item>
+
+</items>

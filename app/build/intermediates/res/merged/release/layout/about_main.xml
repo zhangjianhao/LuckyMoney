@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@color/app_content_color"
+            >
+
+            <Button
+                android:id="@+id/about_back_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_back_arrow"
+                android:background="@null"
+                android:text="返回"
+                android:textColor="#ffffff"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+
+
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="关于抢红包"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                android:layout_centerInParent="true"
+                />
+
+
+
+        </RelativeLayout>
+
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_weight="0.6"
+       android:background="@color/app_content_color"
+       android:gravity="center"
+       android:orientation="vertical"
+       >
+
+       <ImageView
+           android:layout_width="100dp"
+           android:layout_height="100dp"
+           android:src="@drawable/ic_launcher"
+           android:layout_gravity="center"
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="#ffffff"
+           android:text="V1.2 试用版"
+           android:layout_marginTop="20dp"
+           />
+
+
+
+   </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.4"
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+
+        <RelativeLayout
+            android:id="@+id/check_update_rl"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="检查更新"
+                android:gravity="center"
+                android:layout_marginLeft="20dp"
+
+                />
+
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_right_arrow"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                />
+
+            <TextView
+                android:id="@+id/update_information_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:layout_marginRight="50dp"
+                />
+
+
+        </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray"
+        >
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/stay_in_memory_rl"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="常驻内存"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            />
+
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_right_arrow"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="(需root)"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:layout_marginRight="50dp"
+            />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray"
+        >
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/use_help_rl"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="使用帮助"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            />
+
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_right_arrow"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+
+            />
+
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray"
+        >
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/problem_commit_rl"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="问题反馈"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            />
+
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_right_arrow"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+
+            />
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/home/zjianhao/workspace/AndroidStudioWorkSpace/GetLuckyMoney/app/src/main/res/layout/about_main.xml -->

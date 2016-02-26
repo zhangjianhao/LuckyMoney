@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:state_selected="true" android:drawable="@color/app_content_color"/>
+
+<item android:state_checked="true" android:drawable="@color/app_content_color"/>
+</selector><!-- From: file:/home/zjianhao/workspace/AndroidStudioWorkSpace/GetLuckyMoney/app/src/main/res/drawable/switch_style.xml -->

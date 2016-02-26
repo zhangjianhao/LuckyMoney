@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="50dp"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@color/titlebar_bg"
+
+        >
+
+        <Button
+            android:id="@+id/about_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="关于"
+            android:textColor="#ffffff"
+            android:background="@null"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="抢红包"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:layout_centerInParent="true"
+
+            />
+
+        <Button
+            android:id="@+id/user_setting_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="#ffffff"
+            android:text="设置"
+            android:background="@null"
+            android:drawableLeft="@drawable/setting"
+            android:paddingLeft="20dp"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout><!-- From: file:/home/zjianhao/workspace/AndroidStudioWorkSpace/GetLuckyMoney/app/src/main/res/layout/title_bar.xml -->
